@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(215, 215, 241);
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.claculate {
+    width: 250px;
+    padding: 10px;
+
+    color: blue;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+
+
+    flex-wrap: wrap;
+
+
+
+}
+
+#display {
+    width: 100%;
+    padding: 7px;
+}
+
+.buttons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+h1 {
+
+    padding-left: 40px;
+    color: aqua;
+
+}

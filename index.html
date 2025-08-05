@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <div class="claculate">
+        <h1> calculator</h1>
+        <input id="display" type="text"/>
+        <div class="button">
+            <button onclick="cleardisplay()"   class="buttons"> c</button>
+            <div class="button-wrap">
+                <button onclick="displayvalue('7')" class="buttons">7</button>
+                <button onclick="displayvalue('8')" class="buttons">8</button>
+                <button onclick="displayvalue('9')" class="buttons">9</button>
+                <button onclick="displayvalue('+')" class="buttons">+</button>
+            </div>
+             <div class="button-wrap">
+                <button onclick="displayvalue('4')"class="buttons">4</button>
+                <button onclick="displayvalue('5')"class="buttons">5</button>
+                <button onclick="displayvalue('6')"class="buttons">6</button>
+                <button onclick="displayvalue('-')"class="buttons">-</button>
+            </div>
+             <div class="button-wrap">
+                <button onclick="displayvalue('3')"class="buttons">3</button>
+                <button onclick="displayvalue('2')"class="buttons">2</button>
+                <button onclick="displayvalue('1')"class="buttons">1</button>
+                <button onclick="displayvalue('*')"class="buttons">*</button>
+            </div> 
+            <div class="button-wrap">
+                <button onclick="displayvalue('0')"class="buttons">0</button>
+                <button onclick="displayvalue('/')"class="buttons">\</button>
+                <button onclick="displayvalue('%')"class="buttons">%</button>
+                <button onclick="calculate('=')"class="buttons">=</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="cal.js"></script>
+</html>
